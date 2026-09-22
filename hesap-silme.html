@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Belge Tarayıcı & PDF – Hesap Silme / Account Deletion</title>
+<style>
+  :root {
+    --bg: #F7F5F1; --card: #FFFFFF; --ink: #1E2A4A; --soft: #5B6584; --accent: #C98A3B; --border: rgba(30,42,74,0.10);
+    box-sizing: border-box;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) { --bg: #121826; --card: #1B2335; --ink: #EEF1F7; --soft: #A7B0C4; --border: rgba(255,255,255,0.10); }
+  }
+  :root[data-theme="dark"] { --bg: #121826; --card: #1B2335; --ink: #EEF1F7; --soft: #A7B0C4; --border: rgba(255,255,255,0.10); }
+  html { scroll-padding-top: env(safe-area-inset-top, 0px); }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; line-height: 1.6; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 20px 56px; }
+  header { display: flex; align-items: center; gap: 14px; margin-bottom: 24px; }
+  .logo { width: 52px; height: 52px; border-radius: 14px; background: #1E2A4A; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+  h1 { font-size: 1.5rem; margin: 0; line-height: 1.25; }
+  .sub { color: var(--soft); margin: 2px 0 0; font-size: 0.95rem; }
+  section { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 20px 22px; margin-bottom: 16px; }
+  h2 { font-size: 1.1rem; margin: 0 0 10px; }
+  ol, ul { padding-left: 1.3em; margin: 8px 0; }
+  li { margin: 4px 0; }
+  .note { border-left: 3px solid var(--accent); padding-left: 12px; color: var(--soft); }
+  a { color: var(--accent); }
+  .lang { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.08em; color: var(--accent); text-transform: uppercase; margin: 28px 0 10px; }
+  footer { color: var(--soft); font-size: 0.85rem; margin-top: 24px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="logo" aria-hidden="true">
+      <svg width="26" height="30" viewBox="0 0 26 30"><path d="M3 0h14l9 9v18a3 3 0 0 1-3 3H3a3 3 0 0 1-3-3V3a3 3 0 0 1 3-3z" fill="#F6F5F1"/><rect x="5" y="13" width="14" height="2.4" rx="1.2" fill="#C98A3B"/><rect x="5" y="18" width="11" height="2.4" rx="1.2" fill="#C0C6D4"/></svg>
+    </div>
+    <div>
+      <h1>Belge Tarayıcı &amp; PDF</h1>
+      <p class="sub">Hesap ve veri silme talebi · Account and data deletion</p>
+    </div>
+  </header>
+
+  <div class="lang">Türkçe</div>
+
+  <section>
+    <h2>Uygulama içinden hesap silme</h2>
+    <ol>
+      <li>Belge Tarayıcı &amp; PDF uygulamasını açın ve hesabınızla giriş yapın.</li>
+      <li><strong>Tara</strong> sekmesinde sağ üstteki kişi simgesine dokunun. (Aboneliğiniz yoksa abonelik ekranının altındaki <strong>Hesabı sil</strong> bağlantısını da kullanabilirsiniz.)</li>
+      <li><strong>Hesabı Sil</strong> seçeneğine dokunun ve onaylayın. Güvenlik için şifreniz tekrar istenebilir.</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Uygulamaya erişemiyorsanız</h2>
+    <p>Hesabınızın silinmesini e-posta ile de talep edebilirsiniz. Hesabınızda kayıtlı e-posta adresinden <a href="mailto:volkankya@gmail.com?subject=Belge%20Taray%C4%B1c%C4%B1%20-%20Hesap%20silme%20talebi">volkankya@gmail.com</a> adresine “Hesap silme talebi” konulu bir e-posta gönderin. Talebiniz en geç 30 gün içinde işleme alınır.</p>
+  </section>
+
+  <section>
+    <h2>Silinen ve saklanan veriler</h2>
+    <ul>
+      <li><strong>Silinenler:</strong> e-posta adresiniz ve hesap bilgileriniz ile cihazınızdaki taranmış belgeler, sesli notlar ve geçmiş.</li>
+      <li><strong>Talep üzerine silinenler:</strong> abonelik yönetim hizmetimizdeki (RevenueCat) kullanıcı kimliğinize bağlı satın alma kayıtları; e-posta ile talep etmeniz halinde 30 gün içinde silinir.</li>
+      <li><strong>Saklananlar:</strong> Satın alma ve fatura kayıtları Apple ve Google tarafından tutulur; bu kayıtlar ilgili mağazaların yasal yükümlülükleri kapsamında saklanabilir.</li>
+    </ul>
+    <p class="note">Hesap silme aboneliği otomatik olarak iptal etmez. Aboneliğinizi App Store (iPhone Ayarlar &gt; Apple Hesabı &gt; Abonelikler) veya Google Play (Play Store &gt; Ödemeler ve abonelikler) üzerinden iptal edin. Aynı hesapla aynı geliştiricinin diğer uygulamalarına da giriş yaptıysanız, hesabınız oralardan da silinir.</p>
+  </section>
+
+  <div class="lang">English</div>
+
+  <section>
+    <h2>Delete your account in the app</h2>
+    <ol>
+      <li>Open Belge Tarayıcı &amp; PDF and sign in.</li>
+      <li>On the <strong>Tara</strong> tab, tap the person icon at the top right (or the <strong>Hesabı sil</strong> link on the subscription screen).</li>
+      <li>Tap <strong>Hesabı Sil</strong> (Delete Account) and confirm. You may be asked for your password.</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Request deletion by email</h2>
+    <p>If you cannot access the app, email <a href="mailto:volkankya@gmail.com?subject=Belge%20Taray%C4%B1c%C4%B1%20-%20Account%20deletion%20request">volkankya@gmail.com</a> from the address registered to your account with the subject “Account deletion request”. Requests are processed within 30 days.</p>
+  </section>
+
+  <section>
+    <h2>What is deleted and what is kept</h2>
+    <ul>
+      <li><strong>Deleted:</strong> your email address and account data, and scanned documents, voice notes and history stored on your device.</li>
+      <li><strong>Deleted on request:</strong> purchase records linked to your user ID in our subscription service (RevenueCat); deleted within 30 days if you request it by email.</li>
+      <li><strong>Kept:</strong> purchase and billing records are held by Apple and Google and may be retained under their legal obligations.</li>
+    </ul>
+    <p class="note">Deleting your account does not cancel your subscription. Cancel it in the App Store or Google Play subscription settings. If you used the same account in other apps by the same developer, it is deleted there as well.</p>
+  </section>
+
+  <footer>Belge Tarayıcı &amp; PDF · Geliştirici / Developer: Volkan Kaya</footer>
+</main>
+</body>
+</html>
